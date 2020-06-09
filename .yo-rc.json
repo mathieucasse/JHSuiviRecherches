@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ch.matfly.suivirecherches",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "monolith",
+    "baseName": "SuiviRecherches",
+    "packageName": "ch.matfly.suivirecherches",
+    "packageFolder": "ch/matfly/suivirecherches",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTVhNjg5ZmQ3NjQ0NTAzNTIzY2ZhNGM2NWU3ZTY4NWE2NDUwOTBkYmJkYjMyNGUwMjFhZjlmZjQ3ZWU3NmZhOTYyZTg4MjA4YzE4ZGQ1NThhZmE3ZThiYTA0ZGIxZDMwYTI5NWExOGYzMWZmMzI2MDA1NjJiNzI3OTI1NzQ0YTA=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1591704077582,
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en", "de", "it"],
+    "blueprints": []
+  }
+}
