@@ -112,6 +112,17 @@ spring:
       naming:
         physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
         implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+  mail:
+    host: synomail.matfly.ch
+    port: 587
+    user: mathieu
+    password: D(+<r?uk8W;KSZst
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.matfly.ch
   messages:
     basename: i18n/messages
   main:
@@ -162,7 +173,7 @@ jhipster:
   #     allow-credentials: true
   #     max-age: 1800
   mail:
-    from: SuiviRecherches@localhost
+    from: SuiviRecherches@matfly.ch
   swagger:
     default-include-pattern: /api/.*
     title: SuiviRecherches API

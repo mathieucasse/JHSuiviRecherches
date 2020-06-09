@@ -60,10 +60,16 @@ spring:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
     contexts: dev, faker
   mail:
-    host: localhost
-    port: 25
-    username:
-    password:
+    host: synomail.matfly.ch
+    port: 587
+    username: mail
+    password: ENC(KLzHBV/XBeoOQScS4H0JIrbguXsi2iqBGKp1+58F1pI=)
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: synomail.matfly.ch
   messages:
     cache-duration: PT1S # 1 second, see the ISO 8601 standard
   thymeleaf:
@@ -134,3 +140,6 @@ jhipster:
 # ===================================================================
 
 # application:
+jasypt:
+  encryptor:
+    password: synomail
